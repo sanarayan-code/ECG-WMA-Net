@@ -84,7 +84,7 @@ def run_model(params, train_x, train_y, val_x, val_y):
 params = {'input_shape': (1, 2500, 8),
         'batch_size': 8,
         'class_labels': CLASSES,
-        'project_name': 'inary_one_echo_8_lead_raw',
+        'project_name': 'binary_one_echo_8_lead_raw',
         'epochs': 75,
         'max_trials': 75}
 
